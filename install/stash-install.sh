@@ -17,6 +17,8 @@ msg_info "Installing Dependencies"
 $STD apt install -y ffmpeg
 msg_ok "Installed Dependencies"
 
+setup_hwaccel
+
 fetch_and_deploy_gh_release "stash" "stashapp/stash" "singlefile" "latest" "/opt/stash" "stash-linux"
 
 msg_info "Creating Service"
