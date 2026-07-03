@@ -44,6 +44,10 @@
     {
       "text": "Generated previews and sprites are stored inside the container and grow with your library. Increase the disk size for large collections.",
       "type": "warning"
+    },
+    {
+      "text": "GPU passthrough for hardware transcoding is offered during installation. Enable hardware acceleration afterwards in Settings → System → Transcoding.",
+      "type": "info"
     }
   ]
 }
